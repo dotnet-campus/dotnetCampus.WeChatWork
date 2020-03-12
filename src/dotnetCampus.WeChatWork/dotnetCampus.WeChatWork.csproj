@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageOutputPath>..\..\bin\$(Configuration)</PackageOutputPath>
+    <Version>0.1.0</Version>
+    <Authors>dotnet-campus</Authors>
+    <Product>企业微信机器人开发 API</Product>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
