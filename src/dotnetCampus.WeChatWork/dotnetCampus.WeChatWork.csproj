@@ -4,10 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageOutputPath>..\..\bin\$(Configuration)</PackageOutputPath>
-    <Version>0.1.0</Version>
     <Authors>dotnet-campus</Authors>
     <Product>企业微信机器人开发 API</Product>
+    <Company>dotnet-campus</Company>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/dotnet-campus/dotnetCampus.WeChatWork</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dotnet-campus/dotnetCampus.WeChatWork.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Version>0.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
